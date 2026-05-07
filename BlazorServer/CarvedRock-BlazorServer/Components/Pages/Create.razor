@@ -1,0 +1,30 @@
+@page "/create"
+@rendermode InteractiveServer
+
+<h4>Add a product</h4>
+<EditForm Model="NewProduct" OnValidSubmit="CreateProduct">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row mb-2 form-group">
+        <div class="col-3">
+            <label>@nameof(NewProduct.Name)</label>
+        </div>
+        <div class="col-9">
+            <InputText class="form-control" type="text" @bind-Value="NewProduct.Name" @oninput="OnNameInput" />
+            @if (!string.IsNullOrEmpty(_nameValidationError))
+            {
+                <div class="text-danger">@_nameValidationError</div>
+            }
+        </div>
+    </div>
+    <div class="row mb-2 form-group">
+        <div class="col-3">
+            <label>@nameof(NewProduct.Price)</label>
+        </div>
+        <div class="col-9">
+            <InputNumber class="form-control" @bind-Value="NewProduct.Price" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+</EditForm>

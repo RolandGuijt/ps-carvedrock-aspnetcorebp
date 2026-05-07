@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarvedRock-BlazorWebAssembly", "CarvedRock-BlazorWebAssembly\CarvedRock-BlazorWebAssembly\CarvedRock-BlazorWebAssembly.csproj", "{76C47572-52F2-44A4-9594-0C9D89437791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarvedRock-BlazorWebAssembly.Client", "CarvedRock-BlazorWebAssembly\CarvedRock-BlazorWebAssembly.Client\CarvedRock-BlazorWebAssembly.Client.csproj", "{24D06644-D393-44E6-BC3C-992B1225B21B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76C47572-52F2-44A4-9594-0C9D89437791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C47572-52F2-44A4-9594-0C9D89437791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C47572-52F2-44A4-9594-0C9D89437791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C47572-52F2-44A4-9594-0C9D89437791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D06644-D393-44E6-BC3C-992B1225B21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D06644-D393-44E6-BC3C-992B1225B21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D06644-D393-44E6-BC3C-992B1225B21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D06644-D393-44E6-BC3C-992B1225B21B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
