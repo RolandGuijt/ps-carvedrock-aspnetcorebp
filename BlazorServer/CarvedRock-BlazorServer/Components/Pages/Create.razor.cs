@@ -26,12 +26,7 @@ public partial class Create
     private void OnNameInput(ChangeEventArgs e)
     {
         var name = e.Value?.ToString();
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            _nameValidationError = null;
-            return;
-        }
-            
+        
         if (Products.Any(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase)))
         {
             _nameValidationError = "Name already taken";

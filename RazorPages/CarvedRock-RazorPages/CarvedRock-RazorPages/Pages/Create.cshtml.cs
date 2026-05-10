@@ -4,14 +4,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CarvedRock_RazorPages.Pages
 {
-    public class CreateModel : PageModel
+    public class CreateModel(IProductRepository productRepository) : 
+        PageModel
     {
-        private readonly IProductRepository productRepository;
-
-        public CreateModel(IProductRepository productRepository)
-        {
-            this.productRepository = productRepository;
-        }
+        private readonly IProductRepository productRepository = 
+            productRepository;
 
         [BindProperty]
         public Product NewProduct { get; set; } = new();
