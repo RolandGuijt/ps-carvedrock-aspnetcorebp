@@ -1,12 +1,11 @@
-using CarvedRock_BlazorWebAssembly.Client.Data;
-using CarvedRock_BlazorAuto.Components;
+using CarvedRock_BlazorWebAssembly.Data;
+using CarvedRock_WebAssembly.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-    .AddInteractiveWebAssemblyComponents()
-    .AddInteractiveServerComponents();
+    .AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddSingleton<IProductRepository, 
     ProductRepository>();
@@ -21,10 +20,8 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
 app.UseStatusCodePagesWithReExecute("/not-found", createScopeForStatusCodePages: true);
 app.UseHttpsRedirection();
 
@@ -33,7 +30,6 @@ app.UseAntiforgery();
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddInteractiveServerRenderMode()
-    .AddAdditionalAssemblies(typeof(CarvedRock_BlazorAuto.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(CarvedRock_WebAssembly.Client._Imports).Assembly);
 
 app.Run();

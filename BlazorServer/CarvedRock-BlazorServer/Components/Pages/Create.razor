@@ -11,7 +11,8 @@
             <label>@nameof(NewProduct.Name)</label>
         </div>
         <div class="col-9">
-            <InputText class="form-control" type="text" @bind-Value="NewProduct.Name" @oninput="OnNameInput" />
+            <InputText class="form-control" type="text" 
+                @bind-Value="NewProduct.Name" @oninput="OnNameInput" />
             @if (!string.IsNullOrEmpty(_nameValidationError))
             {
                 <div class="text-danger">@_nameValidationError</div>
@@ -23,7 +24,8 @@
             <label>@nameof(NewProduct.Price)</label>
         </div>
         <div class="col-9">
-            <InputNumber class="form-control" @bind-Value="NewProduct.Price" />
+            <InputNumber class="form-control" 
+                @bind-Value="NewProduct.Price" />
         </div>
     </div>
     <button type="submit" class="btn btn-primary">Add</button>

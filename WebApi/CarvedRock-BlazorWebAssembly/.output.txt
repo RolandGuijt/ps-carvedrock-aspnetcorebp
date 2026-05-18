@@ -1,0 +1,375 @@
+Command finished with exit code 0.
+Command output:
+
+
+    Directory: 
+    C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MVC
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                .github                                                              
+d-----         5/18/2026   5:13 PM                .idea                                                                
+d-----         5/18/2026   5:17 PM                CarvedRock-MVC                                                       
+-a----        12/21/2021  10:39 AM           1148 CarvedRock-MVC.sln                                                   
+
+
+    Directory: 
+    C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MVC\.github
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----          5/3/2026   2:09 PM            362 copilot-instructions.md                                              
+
+
+    Directory: 
+    C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MVC\.idea
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                .idea.CarvedRock-MVC                                                 
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\.idea\.idea.CarvedRock-MVC
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                .idea                                                                
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\.idea\.idea.CarvedRock-MVC\.idea
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----          5/5/2026  11:20 AM            353 .gitignore                                                           
+-a----          5/5/2026  11:20 AM            169 encodings.xml                                                        
+-a----          5/5/2026  11:30 AM            205 indexLayout.xml                                                      
+-a----          5/5/2026  11:30 AM            308 projectSettingsUpdater.xml                                           
+-a----          5/5/2026  11:30 AM            191 vcs.xml                                                              
+-a----          5/5/2026  11:30 AM          11757 workspace.xml                                                        
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:10 PM                ApiServices                                                          
+d-----         5/18/2026   5:13 PM                bin                                                                  
+d-----         5/18/2026   5:13 PM                Controllers                                                          
+d-----         5/18/2026   5:13 PM                Data                                                                 
+d-----         5/18/2026   5:13 PM                Models                                                               
+d-----         5/18/2026   5:13 PM                obj                                                                  
+d-----         5/18/2026   5:13 PM                Properties                                                           
+d-----         5/18/2026   5:13 PM                Views                                                                
+d-----         5/18/2026   5:13 PM                wwwroot                                                              
+-a----        12/21/2021  10:39 AM            127 appsettings.Development.json                                         
+-a----        12/21/2021  10:39 AM            151 appsettings.json                                                     
+-a----          5/3/2026   1:15 PM            271 CarvedRock-MVC.csproj                                                
+-a----         5/18/2026   5:17 PM            726 Program.cs                                                           
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\ApiServices
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         5/18/2026   5:10 PM            218 IProductApiService.cs                                                
+-a----         5/18/2026   5:10 PM            905 ProductApiService.cs                                                 
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\bin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                Debug                                                                
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\bin\Debug
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----          5/3/2026   1:11 PM                net10.0                                                              
+d-----         5/18/2026   5:13 PM                net6.0                                                               
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\bin\Debug\net6.0
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                ref                                                                  
+-a----        12/21/2021  10:39 AM            127 appsettings.Development.json                                         
+-a----        12/21/2021  10:39 AM            151 appsettings.json                                                     
+-a----        12/21/2021  10:53 AM            434 CarvedRock-MVC.deps.json                                             
+-a----        12/23/2021   2:22 PM          44544 CarvedRock-MVC.dll                                                   
+-a----        12/23/2021   2:22 PM         149504 CarvedRock-MVC.exe                                                   
+-a----        12/23/2021   2:22 PM          33672 CarvedRock-MVC.pdb                                                   
+-a----        12/21/2021  10:53 AM            416 CarvedRock-MVC.runtimeconfig.json                                    
+-a----        12/21/2021   3:00 PM           1877 CarvedRock-MVC.staticwebassets.runtime.json                          
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\bin\Debug\net6.0\ref
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/23/2021   2:22 PM          15872 CarvedRock-MVC.dll                                                   
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\Controllers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         5/10/2026   4:14 PM            767 ProductController.cs                                                 
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\Data
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021   3:00 PM            226 IProductRepository.cs                                                
+-a----        12/21/2021   1:11 PM            502 Product.cs                                                           
+-a----        12/21/2021   3:00 PM           1509 ProductRepository.cs                                                 
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\Models
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021  10:39 AM            206 ErrorViewModel.cs                                                    
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                Debug                                                                
+-a----         5/18/2026   5:13 PM          32317 CarvedRock-MVC.csproj.nuget.dgspec.json                              
+-a----          5/5/2026  11:20 AM           1302 CarvedRock-MVC.csproj.nuget.g.props                                  
+-a----        12/21/2021  10:39 AM            150 CarvedRock-MVC.csproj.nuget.g.targets                                
+-a----         5/18/2026   5:13 PM          31282 project.assets.json                                                  
+-a----         5/18/2026   5:13 PM            297 project.nuget.cache                                                  
+-a----         5/18/2026   5:13 PM          24603 project.packagespec.json                                             
+-a----         5/18/2026   5:13 PM             20 rider.project.model.nuget.info                                       
+-a----         5/18/2026   5:13 PM             20 rider.project.restore.info                                           
+-a----        12/23/2021   2:22 PM             35 staticwebassets.pack.sentinel                                        
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                net10.0                                                              
+d-----         5/18/2026   5:13 PM                net6.0                                                               
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net10.0
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----          5/3/2026   1:11 PM                ref                                                                  
+d-----          5/3/2026   1:11 PM                refint                                                               
+d-----          5/3/2026   1:11 PM                staticwebassets                                                      
+-a----          5/3/2026   1:11 PM            200 .NETCoreApp,Version=v10.0.AssemblyAttributes.cs                      
+-a----         5/18/2026   5:13 PM           1016 CarvedRock-MVC.AssemblyInfo.cs                                       
+-a----         5/18/2026   5:13 PM             66 CarvedRock-MVC.AssemblyInfoInputs.cache                              
+-a----         5/18/2026   5:13 PM            228 CarvedRock-MVC.assets.cache                                          
+-a----         5/18/2026   5:13 PM           3003 CarvedRock-MVC.GeneratedMSBuildEditorConfig.editorconfig             
+-a----          5/3/2026   1:11 PM            642 CarvedRock-MVC.GlobalUsings.g.cs                                     
+-a----          5/3/2026   1:11 PM             66 CarvedRock-MVC.RazorAssemblyInfo.cache                               
+-a----          5/3/2026   1:11 PM            732 CarvedRock-MVC.RazorAssemblyInfo.cs                                  
+-a----          5/3/2026   1:11 PM          10387 rpswa.dswa.cache.json                                                
+-a----          5/3/2026   1:11 PM              0 staticwebassets.removed.txt                                          
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net6.0
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                ref                                                                  
+d-----          5/3/2026   1:11 PM                refint                                                               
+d-----         5/18/2026   5:13 PM                scopedcss                                                            
+d-----        12/21/2021  10:39 AM                staticwebassets                                                      
+-a----          5/3/2026   1:11 PM            198 .NETCoreApp,Version=v6.0.AssemblyAttributes.cs                       
+-a----          5/3/2026   1:11 PM         151040 apphost.exe                                                          
+-a----          5/3/2026   1:11 PM           1056 CarvedRock-MVC.AssemblyInfo.cs                                       
+-a----          5/3/2026   1:11 PM             66 CarvedRock-MVC.AssemblyInfoInputs.cache                              
+-a----          5/3/2026   1:11 PM            228 CarvedRock-MVC.assets.cache                                          
+-a----        12/21/2021  10:52 AM             42 CarvedRock-MVC.csproj.CoreCompileInputs.cache                        
+-a----        12/21/2021  10:53 AM           3664 CarvedRock-MVC.csproj.FileListAbsolute.txt                           
+-a----        12/23/2021   2:22 PM          44544 CarvedRock-MVC.dll                                                   
+-a----          5/3/2026   1:11 PM           2705 CarvedRock-MVC.GeneratedMSBuildEditorConfig.editorconfig             
+-a----        12/21/2021  10:53 AM             42 CarvedRock-MVC.genruntimeconfig.cache                                
+-a----          5/3/2026   1:11 PM            642 CarvedRock-MVC.GlobalUsings.g.cs                                     
+-a----        12/21/2021  10:52 AM              0 CarvedRock-MVC.MvcApplicationPartsAssemblyInfo.cache                 
+-a----        12/23/2021   2:22 PM          33672 CarvedRock-MVC.pdb                                                   
+-a----          5/3/2026   1:11 PM             66 CarvedRock-MVC.RazorAssemblyInfo.cache                               
+-a----          5/3/2026   1:11 PM            732 CarvedRock-MVC.RazorAssemblyInfo.cs                                  
+-a----          1/6/2022  11:54 AM         460115 project.razor.json                                                   
+-a----          5/3/2026   1:11 PM          10387 rpswa.dswa.cache.json                                                
+-a----        12/21/2021   3:00 PM          10708 staticwebassets.build.json                                           
+-a----        12/21/2021   3:00 PM           1877 staticwebassets.development.json                                     
+-a----          5/3/2026   1:11 PM              0 staticwebassets.removed.txt                                          
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net6.0\ref
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/23/2021   2:22 PM          15872 CarvedRock-MVC.dll                                                   
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net6.0\scopedcss
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                bundle                                                               
+d-----         5/18/2026   5:13 PM                projectbundle                                                        
+d-----         5/18/2026   5:13 PM                Views                                                                
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net6.0\scopedcss\bundle
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021  10:53 AM           1131 CarvedRock-MVC.styles.css                                            
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net6.0\scopedcss\projectbundle
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021  10:53 AM           1131 CarvedRock-MVC.bundle.scp.css                                        
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net6.0\scopedcss\Views
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                Shared                                                               
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\obj\Debug\net6.0\scopedcss\Views\Shared
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021  10:53 AM           1061 _Layout.cshtml.rz.scp.css                                            
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\Properties
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021  10:39 AM            715 launchSettings.json                                                  
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\Views
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                Product                                                              
+d-----         5/18/2026   5:13 PM                Shared                                                               
+-a----        12/21/2021  10:39 AM            110 _ViewImports.cshtml                                                  
+-a----        12/21/2021  10:39 AM             35 _ViewStart.cshtml                                                    
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\Views\Product
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021   1:12 PM            730 Create.cshtml                                                        
+-a----        12/23/2021   2:22 PM            804 Index.cshtml                                                         
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\Views\Shared
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/21/2021  10:39 AM            895 Error.cshtml                                                         
+-a----        12/21/2021   1:33 PM            577 _Layout.cshtml                                                       
+-a----        12/21/2021  10:39 AM            924 _Layout.cshtml.css                                                   
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\wwwroot
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         5/18/2026   5:13 PM                css                                                                  
+d-----         5/18/2026   5:13 PM                Images                                                               
+-a----        11/27/2019  11:10 AM         144883 bootstrap.min.css                                                    
+-a----        12/21/2021  10:39 AM           5430 favicon.ico                                                          
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\wwwroot\css
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        12/18/2021   9:52 AM            194 site.css                                                             
+
+
+    Directory: C:\Users\rolan\source\repos\ps-carvedrock-aspnetcorebp\WebApi\CarvedRock-BlazorWebAssembly\CarvedRock-MV
+    C\CarvedRock-MVC\wwwroot\Images
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----        11/27/2019  11:10 AM          40727 carved-rock-logo.png                                                 
+-a----        11/27/2019  11:10 AM        6993271 shutterstock_222721876.jpg                                           
+-a----        11/27/2019  11:10 AM        4235727 shutterstock_441989509.jpg                                           
+-a----        11/27/2019  11:10 AM        3013043 shutterstock_48040747.jpg                                            
+-a----        11/27/2019  11:10 AM        6940381 shutterstock_495259978.jpg                                           
+-a----        11/27/2019  11:10 AM        7321343 shutterstock_6170527.jpg                                             
+-a----        11/27/2019  11:10 AM        6022600 shutterstock_66842440.jpg

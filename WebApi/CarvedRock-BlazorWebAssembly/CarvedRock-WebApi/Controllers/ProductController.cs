@@ -6,15 +6,8 @@ namespace CarvedRock_WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ProductController : ControllerBase
+    public class ProductController(IProductRepository productRepository) : ControllerBase
     {
-        private readonly IProductRepository productRepository;
-
-        public ProductController(IProductRepository productRepository)
-        {
-            this.productRepository = productRepository;
-        }
-
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

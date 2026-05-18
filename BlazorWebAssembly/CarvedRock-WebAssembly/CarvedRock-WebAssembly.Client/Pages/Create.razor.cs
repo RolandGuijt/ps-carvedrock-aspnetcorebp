@@ -1,4 +1,4 @@
-﻿using CarvedRock_BlazorServer.Data;
+﻿using CarvedRock_BlazorWebAssembly.Data;
 using Microsoft.AspNetCore.Components;
 
 namespace CarvedRock_BlazorServer.Components.Pages;
@@ -17,7 +17,7 @@ public partial class Create
     [Inject]
     public required NavigationManager NavigationManager { get; set; }
         
-    protected override async Task OnInitializedAsync()
+    protected async Task OnInitializedAsync()
     {
         NewProduct = new Product();
         Products = await ProductRepository.GetAll();

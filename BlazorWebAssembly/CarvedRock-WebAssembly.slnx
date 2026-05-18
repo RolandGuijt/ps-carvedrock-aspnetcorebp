@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CarvedRock-WebAssembly/CarvedRock-WebAssembly.Client/CarvedRock-WebAssembly.Client.csproj" />
+  <Project Path="CarvedRock-WebAssembly/CarvedRock-WebAssembly/CarvedRock-WebAssembly.csproj" />
+</Solution>
