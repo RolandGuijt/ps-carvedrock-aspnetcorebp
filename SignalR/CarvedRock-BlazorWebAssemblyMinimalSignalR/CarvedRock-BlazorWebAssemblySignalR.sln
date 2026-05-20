@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarvedRock-WebApi", "Carved
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarvedRock-Shared", "CarvedRock-Shared\CarvedRock-Shared.csproj", "{36E8DAE8-E975-498F-8380-260ABFFFA9EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarvedRock-WebAssembly", "CarvedRock-WebAssembly\CarvedRock-WebAssembly\CarvedRock-WebAssembly.csproj", "{762664C5-3DF3-480E-B154-07AD85C4A075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarvedRock-WebAssembly.Client", "CarvedRock-WebAssembly\CarvedRock-WebAssembly.Client\CarvedRock-WebAssembly.Client.csproj", "{93D8C7BF-FF1F-4EE9-BFEC-133AAF6F6026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{36E8DAE8-E975-498F-8380-260ABFFFA9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36E8DAE8-E975-498F-8380-260ABFFFA9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36E8DAE8-E975-498F-8380-260ABFFFA9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762664C5-3DF3-480E-B154-07AD85C4A075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762664C5-3DF3-480E-B154-07AD85C4A075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762664C5-3DF3-480E-B154-07AD85C4A075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762664C5-3DF3-480E-B154-07AD85C4A075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D8C7BF-FF1F-4EE9-BFEC-133AAF6F6026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D8C7BF-FF1F-4EE9-BFEC-133AAF6F6026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D8C7BF-FF1F-4EE9-BFEC-133AAF6F6026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D8C7BF-FF1F-4EE9-BFEC-133AAF6F6026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,31 +1,25 @@
 using CarvedRock_WebApi.Data;
 using CarvedRock_WebApi.Hubs;
 using Microsoft.AspNetCore.SignalR;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddEndpointsApiExplorer();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddOpenApi();
 builder.Services.AddCors();
 builder.Services.AddSignalR();
 builder.Services.AddSingleton<IProductRepository, ProductRepository>();
  
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
 app.UseHttpsRedirection();
 
 app.UseCors(b => { 
-    b.WithOrigins("https://localhost:7220"); 
+    b.WithOrigins("https://localhost:7094"); 
     b.AllowAnyHeader(); 
     b.AllowAnyMethod(); 
 });
@@ -33,7 +27,7 @@ app.UseCors(b => {
 app.MapGet("/product", async (IProductRepository productRepository) =>
 {
     var products = await productRepository.GetAll();
-    if (products.Count() == 0)
+    if (!products.Any())
         return Results.NoContent();
 
     return Results.Ok(products);
@@ -60,6 +54,8 @@ app.MapPost("/product", async (Product product,
         product);
 });
 
+app.MapOpenApi();
+app.MapScalarApiReference();
 app.MapHub<ProductHub>("/producthub");
 
 app.Run();
